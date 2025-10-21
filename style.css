@@ -736,6 +736,12 @@ html, body{
         padding: 0vw;
     }
     #down-footer{
+        /* background-color: burlywood; */
+        height: 40%;
+        padding: 3vw;
+        
+    }
+    #down-footer{
         font-size: 3vw;
         align-items: center;
     }
