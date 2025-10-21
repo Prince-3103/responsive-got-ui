@@ -273,6 +273,9 @@ html, body{
     font-weight: 900;
     margin-bottom: 5vh;
 }
+#page3 h2{
+    display: none;
+}
 
 .elem{
     /* background-color: cadetblue; */
@@ -616,9 +619,16 @@ html, body{
         height: 60%;
     }
     #page3>h1{
-        font-size: 7vw;
-        font-weight: 900;
-        margin-bottom: 4vh;
+        display: none;
+    }
+    #page3 h2{
+        display: block;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 700;
+        padding: 4vw;
+        border-top: 2px solid black;
     }
 
     .elem{
@@ -643,12 +653,12 @@ html, body{
     }
 
     #page4{
-        height: 60%;
+        height: 50%;
         width: 100%;
-        margin-top: 8%;
+        margin-top: 5%;
     }
     #page4>img{
-        height: 80%;
+        height: 90%;
         width: 50%;
         object-fit: cover;
         object-position: top;
@@ -674,13 +684,14 @@ html, body{
         color: rgb(45, 44, 44);
     }
     #left-content img{
-        height: 40%;
+        height: 50%;
         width: 48%;
         object-position: top;
     }
 
     #marque{
         padding: 2vw 0;
+        color: beige;
     }
     #marque h1{
         font-size: 5vw;
